@@ -1,1 +1,29 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>日進月報第1話</title>
 
+  <!-- 💡 追加：カスタム CSS を先に読む -->
+  <link rel="stylesheet" href="/thefellowtimes.github.io/overrides.css">
+</head>
+<body>
+  <h1>第1話　コメント欄</h1>
+
+  <!-- Cusdis 埋め込み -->
+<div id="cusdis_thread"
+  data-host="https://cusdis.com"
+  data-app-id="5a5dfaa3-8e40-4088-8330-cabc25ccfe9a"
+  data-page-id="{thefellowtimes_1}"
+  data-page-url="{{ PAGE_URL }}"
+  data-page-title="{日進月報第1話}"
+  data-css="/thefellowtimes.github.io/overrides.css">
+></div>
+<script async defer src="https://cusdis.com/js/cusdis.es.js"></script>
+
+
+  <!-- 🔸 これ 1 本で OK -->
+  <script async defer src="https://cusdis.com/js/cusdis.es.js"></script>
+</body>
+</html>
