@@ -20,17 +20,9 @@
 /*--- Cusdis textarea 高さ調整 --------------------*/
 #cusdis_thread textarea,
 #cusdis_thread .cds-textarea {
-  height: 240px !important;   /* ← これなら確実に上書き */
+  height: 240px;   /* ← これなら確実に上書き */
   resize: vertical;
 }
-/* --- PCでは入力欄をさらに広くする -------------------- */
-@media (min-width: 600px) {
-  #cusdis_thread textarea,
-  #cusdis_thread .cds-textarea {
-    min-height: 240px;   /* 好みで数値調整 */
-  }
-}
-
   </style>
 </head>
 <body>
