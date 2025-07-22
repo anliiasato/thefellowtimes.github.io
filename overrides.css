@@ -1,3 +1,9 @@
+/* ページ側のスタイルシートに追記 */
+#cusdis_thread iframe{
+  width:100% !important;      /* 横幅はページに合わせる */
+  min-height:600px !important;/* 好きな高さに。例では 600px */
+}
+
 /* --- Cusdis テキストエリアを広くする ------------------ */
 textarea,
 .cds-textarea {
