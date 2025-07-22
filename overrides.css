@@ -3,7 +3,7 @@
 /* ① テキストエリアをさらに縦に広げる */
 textarea,
 .cds-textarea {
-  min-height: 320px !important;   /* ▶︎ 240 → 320 など好きな高さに */
+  min-height: 240px !important;   /* ▶︎ 240 → 320 など好きな高さに */
 }
 
 /* ② 送信ボタン周りの余白を確保（なくても可） */
