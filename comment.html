@@ -1,18 +1,27 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>コメント欄</title>
+
+  <!-- 💡 追加：カスタム CSS を先に読む -->
+  <link rel="stylesheet" href="https://thefellowtimes.github.io/overrides.css">
+</head>
 <body>
-<div class="wrapper">
-<h1>コメント欄</h1>
+  <h1>コメント欄</h1>
 
+  <!-- Cusdis 埋め込み -->
+  <div id="cusdis_thread"
+       data-host="https://cusdis.com"
+       data-app-id="5a5dfaa3-8e40-4088-8330-cabc25cefe9a"
+       data-page-id="newsletter-20250727"
+       data-page-url="https://thefellowtimes.github.io/comment.html"
+       data-page-title="The Fellow Times #42"
+       data-css="https://thefellowtimes.github.io/overrides.css">
+  </div>
 
- <script async defer src="https://cusdis.com/js/cusdis.es.js"></script>
-  <!-- ↓↓↓ これだけ残す ↓↓↓ -->
-<div id="cusdis_thread"
-          data-host="https://cusdis.com"
-          data-app-id="5a5dfaa3-8e40-4088-8330-cabc25ccfe9a"
-         data-page-id="newsletter‑20250727"
-          data-page-url="https://anliiasato.github.io/thefellowtimes.github.io/comment.html"
-          data-page-title="The Fellow Times #42"
-          data-css="https://anliiasato.github.io/thefellowtimes.github.io/overrides.css">
-</div>
- <script async defer src="https://cusdis.com/js/cusdis.es.js"></script>
-   </div>
+  <!-- 🔸 これ 1 本で OK -->
+  <script async defer src="https://cusdis.com/js/cusdis.es.js"></script>
 </body>
+</html>
