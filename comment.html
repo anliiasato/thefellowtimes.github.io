@@ -17,11 +17,11 @@
       border-radius:8px;box-shadow:0 4px 14px rgba(0,0,0,.06);
     }
     h1{margin-top:0;font-size:1.4rem;text-align:center;}
-    /* --- Cusdis textarea 高さ調整 ---------------------- */
+/*--- Cusdis textarea 高さ調整 --------------------*/
 #cusdis_thread textarea,
-#cusdis_thread .cds-textarea {     /* どちらかに効けば OK */
-  min-height: 180px;               /* お好みで 120〜300px など */
-  resize: vertical;                /* ユーザーがドラッグで伸縮可 */
+#cusdis_thread .cds-textarea {
+  height: 240px !important;   /* ← これなら確実に上書き */
+  resize: vertical;
 }
 /* --- PCでは入力欄をさらに広くする -------------------- */
 @media (min-width: 600px) {
