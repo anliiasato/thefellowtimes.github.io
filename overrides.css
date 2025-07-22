@@ -4,6 +4,8 @@
 textarea,
 .cds-textarea {
   min-height: 240px !important;   /* ▶︎ 240 → 320 など好きな高さに */
+  margin-right: 100px;
+  margin-left: 100px
 }
 
 /* ② 送信ボタン周りの余白を確保（なくても可） */
