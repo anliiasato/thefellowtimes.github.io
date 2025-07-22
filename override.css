@@ -1,0 +1,5 @@
+/* Cusdis テキストエリア高さを固定 */
+textarea,
+.cds-textarea {
+  min-height: 240px !important;   /* お好みで */
+}
