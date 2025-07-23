@@ -1,3 +1,10 @@
+.comment-wrapper{
+  width:60%;
+  max-width:800px;
+  margin:0 auto;
+  padding:0 8px;
+}
+
 /* 💡 iframe の外側をまず拡げる */
 #cusdis_thread iframe{
   width:100% !important;
