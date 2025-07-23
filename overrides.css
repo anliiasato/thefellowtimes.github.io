@@ -1,6 +1,6 @@
 /* 💡 iframe の外側をまず拡げる */
 #cusdis_thread iframe{
-  width:60% !important;
+  width:100% !important;
   min-height:80vh !important; /* 80% 画面高 */
   border:none;
 }
